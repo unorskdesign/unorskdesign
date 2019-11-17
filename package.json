@@ -1,0 +1,22 @@
+{
+  "name": "unorskdesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ../unorsk.design/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unorskdesign/unorskdesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unorskdesign/unorskdesign/issues"
+  },
+  "homepage": "https://github.com/unorskdesign/unorskdesign#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
