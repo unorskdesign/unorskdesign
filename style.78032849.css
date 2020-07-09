@@ -1,10 +1,21 @@
 :root {
-    --link-color: black;
+    /* --link-color: black; */
+    --link-color: #EB5757;
+    --almost-black: #444444;
+    --unorsk-red: #EB5757;
     --base: 24px;
 
     /*font sizes*/
     --my-recent: 2rem;
     --about-details: 1.5rem;
+}
+
+svg {
+    fill: var(--almost-black);
+}
+
+svg:hover {
+    fill: var(--unorsk-red);
 }
 
 html {
@@ -67,11 +78,12 @@ a {
 .about-details {
     font-weight: 100;
     font-size: var(--about-details);   
-    color: #444444;
+    color: var(--almost-black);
 }
 .about {
     font-weight: 100;
     text-transform: uppercase;
+    color: var(--unorsk-red);
 }
 .works-header {
     font-weight: 900;
@@ -129,7 +141,7 @@ a {
     }
 
     .about-details {
-        max-width: 330px;
+        /* max-width: 330px; */
     }
 
     .my-recent-link-padding-top {
@@ -148,7 +160,7 @@ a {
         /* font-size: 2rem;
         line-height: 1.5rem; */
         font-size: 3rem;
-        line-height: 2.3rem;
+        line-height: 2.7rem;
     }
     .works-padding-top {
         flex: 0 0 calc(2*var(--base));
@@ -220,7 +232,7 @@ a {
     .about {
         font-size: 3rem;
         max-width: 532px;
-        line-height: 2.3rem;
+        line-height: 2.7rem;
     }
     .works-padding {
         flex: 0 0 calc(1*var(--base));
@@ -290,7 +302,7 @@ a {
     .about {
         font-size: 6rem;
         max-width: 930px;
-        line-height: 4.6rem;
+        line-height: 5.3rem;
     }
     .works-mobile {
         display: none;
